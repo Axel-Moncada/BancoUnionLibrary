@@ -1,0 +1,51 @@
+
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "variables";
+
+
+
+
+// Create your own map
+$primary: #00a3e1;
+$secondary: #fae100;
+$tertiary: #5F5CF8;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary
+);
+
+
+$custom-colors: (
+  "grey": #333f48 ,
+  "grey-500": #828285,
+  "grey-200": #b6b6ba,
+  "grey-100": #f6f6f6,
+  "grey-50": #f7fafc,
+  "g-secondary": #212d33,
+  "g-tertiary": #38465d,
+  "ahorros": #00bf6f,
+  "credioro": #f7d300,
+  "libranzas": #5d2c70,
+  "credito": #044b7f,
+  "seguros": #fe5000,
+  "divisas": #7ac175,
+  "wu-amarillo": #ffdd00,
+  "wu-negro": #000000
+
+
+
+
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
