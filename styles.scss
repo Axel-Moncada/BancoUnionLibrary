@@ -35,7 +35,8 @@ $custom-colors: (
   "seguros": #fe5000,
   "divisas": #7ac175,
   "wu-amarillo": #ffdd00,
-  "wu-negro": #000000
+  "wu-negro": #000000,
+  "white": #ffffff,
 );
 
 $h1-font-size: 2.5rem;
@@ -52,12 +53,31 @@ $font-family-base : 'Rubik', sans-serif;
   font-family: 'Lato', sans-serif !important; 
 }
 
+.rubik-text {
+  font-family: 'Rubik', sans-serif !important; 
+}
+
 .texto-p{
   font-size: 1rem;
 }
 
 .fw-extrabold{
   font-weight: 900;
+}
+
+.lista-bu-ul ::marker{
+  list-style-type: disc;
+
+  color: #00a3e1;
+}
+.lista-bu-ol ::marker{
+  color: #00a3e1;
+  font-weight: 700;
+}
+
+
+.boton {
+  border-radius: 20px;
 }
 
 // Merge the maps
