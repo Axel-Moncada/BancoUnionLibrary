@@ -3,7 +3,7 @@
 @import "./node_modules/bootstrap/scss/functions";
 @import "./node_modules/bootstrap/scss/variables";
 @import "./node_modules/bootstrap/scss/mixins";
-@import "variables";
+
 
 
 
@@ -36,11 +36,29 @@ $custom-colors: (
   "divisas": #7ac175,
   "wu-amarillo": #ffdd00,
   "wu-negro": #000000
-
-
-
-
 );
+
+$h1-font-size: 2.5rem;
+$h2-font-size: 2.37rem;
+$h3-font-size: 1.87rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
+
+$font-family-base : 'Rubik', sans-serif;
+
+.lato-text {
+  font-family: 'Lato', sans-serif !important; 
+}
+
+.texto-p{
+  font-size: 1rem;
+}
+
+.fw-extrabold{
+  font-weight: 900;
+}
 
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
