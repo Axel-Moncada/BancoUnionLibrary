@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+
+}
+
+.cabecera {
+    display: inline;
+    z-index: 999;
+}
+
+.menu {
+    position: fixed;
+    top: 100;
+    left: 100;
+    width: 20%;
+    height: 650px;
+    /* Establece el alto del menú al 100% del viewport */
+    overflow-y: auto;
+    /* Añade scroll vertical si es necesario */
+    background-color: #f8f9fa;
+    /* Cambia el color de fondo según tus preferencias */
+    padding: 20px;
+}
+
+.mainSection {
+    margin-left: 20%;
+    /* Ajusta el margen izquierdo para dejar espacio para el menú */
+    padding: 20px;
+    margin-top: 80px;
+    /* Añade un margen superior para evitar la superposición con el menú */
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+p {
+    text-align: justify;
+    line-height: normal;
+}
+
+b {
+    color: #00a3e1;
+}
+
+strong {
+
+    font-weight: 600;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    background-color: #00a3e1;
+    color: white !important;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 70%;
+    font-weight: 500;
+    cursor:pointer;
+
+}
+
+
+a::marker {
+    color: #00a3e1;
+    font-weight: 800;
+}
+
+ul a {
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+pre {
+    background-color: #1c262b;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+.code-editor {
+
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+}
