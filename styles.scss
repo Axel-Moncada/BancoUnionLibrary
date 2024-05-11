@@ -24,7 +24,7 @@ $custom-colors: (
   "grey": #333f48 ,
   "grey-500": #828285,
   "grey-200": #b6b6ba,
-  "grey-100": #f6f6f6,
+  "grey-100": #dfdfdf,
   "grey-50": #f7fafc,
   "g-secondary": #212d33,
   "g-tertiary": #38465d,
@@ -75,6 +75,13 @@ $font-family-base : 'Rubik', sans-serif;
   font-weight: 700;
 }
 
+.primary-color-svg {
+  fill: #00a3e1!important; /* Utiliza el color actual (que se ajustará a text-primary) para rellenar el SVG */
+}
+
+.secondary-color-svg {
+  fill: #00a3e1; /* Utiliza el color actual (que se ajustará a text-primary) para rellenar el SVG */
+}
 
 .boton {
   border-radius: 20px;

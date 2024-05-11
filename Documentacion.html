@@ -18,18 +18,18 @@
             <header class="menu bg-secondary-subtle col-md-4 rounded-4 p-4">
                 <nav>
                     <ol>
-                        <a >Inicio</a>
-                        <a>Instalacion</a>
+                        <a href="#inicio">Inicio</a>
+                        <a href="#instalacion">Instalacion</a>
                         <ul>
-                            <a>tecnologias usadas</a>
-                            <a>Paso a paso</a>
+                            <a href="#tecnologias">tecnologias usadas</a>
+                            <a href="#pasoapaso">Paso a paso</a>
                         </ul>
-                        <a>Uso basico</a>
+                        <a href="#usobasico">Uso basico</a>
                         <ul>
-                            <a>Fuentes tipograficas</a>
-                            <a>Colores</a>
-                            <a>Iconos</a>
-                            <a>Logos</a>
+                            <a href="#tipograficas">Fuentes tipograficas</a>
+                            <a href="#colores">Colores</a>
+                            <a href="#iconos">Iconos</a>
+                            <a href="#logos">Logos</a>
                         </ul>
                         <a>Componentes</a>
                         <ul>
@@ -49,8 +49,8 @@
             <section class="mainSection col-md-8 pl-1">
                 <div class="info col-md-12 mx-auto ps-5 ">
 
-                    <h1 class=" text-center mb-5">Banco Unión library</h1>
-                    <div id="inicio" class="text-left  ">
+                    <h1 class=" text-center">Banco Unión library</h1>
+                    <div id="inicio" class="text-left  seccion  ">
                         <h2 class="text-left">Introducción </h2>
                         <p>¡Bienvenido a la documentación oficial de la librería de CSS para Banco Unión! Esta librería
                             representa un recurso invaluable para los desarrolladores que trabajan en proyectos web para
@@ -89,93 +89,279 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-8 mx-auto">
-                        <div class="code-editor">
-                            <pre><code class="language-html">
-        &lt;button class="btn btn-primary"&gt;Mi botón&lt;/button&gt;
-                            </code></pre>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="text-left  mt-5 mb-5 seccion " id="instalacion">
+                        <h2 class="text-left">Instalacion</h2>
+
+                        <p>Para comenzar a utilizar la librería de CSS para Banco Unión en tus proyectos, sigue estos
+                            sencillos pasos:</p>
+
+                        <h3>1. Instalación de Dependencias</h3>
+                        <p>Antes de utilizar la librería, asegúrate de tener agregadas en el header de tu HTML las
+                            siguientes dependencias</p>
+                        <pre>
+
+                         <code class="language-shell text-center">link rel="stylesheet" href="css/styles.min.css" 
+           link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+                        </code></pre>
+
+
+                        <div>
+                            <h3>2. Anota las URL de los logos SVG</h3>
+                            <p>Recuerda que son logos formato SVG por ende puedes escalarlos sin perder calidad </p>
+                            <ul>
+                                <li>Logo para fondo Negro :</li>
+                                <li>Logo para fondo Blanco :</li>
+                                <li>Logo para fondo Amarillo :</li>
+                            </ul>
+
+
+
+                            <h3>3. Modulos Bootstrap</h3>
+                            <p>Y para finalizar el proceso de configuracion de tu HTML agrega este codigo antes del
+                                cierre de body
+                            </p>
+                            <pre>
+                                <code class="language-scss">
+                < script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script > </code>
+                                      </pre>
+
+                            <h3>4. ¡Listo para usar!</h3>
+                            <p>Ahora estás listo para comenzar a utilizar los componentes y estilos de la librería de
+                                CSS
+                                para Banco Unión en tu proyecto.</p>
                         </div>
+
+                        <br>
+                        <br>
+
+
+                        <div class="text-left seccion  " id="tecnologias">
+                            <h2 class="text-left">Tecnologias usadas</h2>
+                            <p>La librería de CSS para Banco Unión ha sido desarrollada utilizando las siguientes
+                                tecnologías:</p>
+
+                            <h3>1. Bootstrap Sass</h3>
+                            <p>Bootstrap es un popular framework de CSS que proporciona herramientas y componentes para
+                                el desarrollo rápido de interfaces de usuario. Utilizamos Bootstrap Sass como base para
+                                nuestra librería, permitiendo una integración sencilla y una experiencia de desarrollo
+                                más eficiente.</p>
+
+                            <h3>2. Sass</h3>
+                            <p>Sass es un preprocesador de CSS que añade funcionalidades avanzadas al lenguaje, como
+                                variables, anidamiento de reglas, mixins y más. Hemos utilizado Sass para escribir
+                                estilos CSS más limpios, organizados y mantenibles.</p>
+
+                            <h3>3. SVG (Scalable Vector Graphics)</h3>
+                            <p>Los archivos SVG son gráficos vectoriales escalables que ofrecen una calidad de imagen
+                                excepcional en cualquier tamaño de pantalla. Hemos empleado archivos SVG para los iconos
+                                y logotipos de la librería, garantizando una representación nítida y clara en todo
+                                momento.</p>
+
+                        </div>
+
+
+                        <div class="text-left seccion " id="pasoapaso">
+                            <h2 class="text-left">Paso a paso</h2>
+                            <p>Al ya tener configurado todo tu entorno de trabajo lo mejor es primero revisar la
+                                documentacion de bootstrap <a
+                                    href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+                                    target="_blank">
+                                    <button class="btn btn-primary btn-lg rounded-5 text-secondary fw-semibold"> Haz
+                                        clic aqui </button></a></p>
+
+                            <p>Al ya saber como funciona ya puedes comenzar a codear todo tu sitio con los conceptos
+                                basicos de esta libreria y su utilizacion de clases </p>
+
+                            <p>Mas que la creacion de una nueva libreria le dimos la personalizacion exacta para el
+                                banco facilitando mas nuestro trabajo dentro de la compañia</p>
+                        </div>
+
+
+                        <div class="text-left  " id="usobasico">
+                            <h2>Uso Basico</h2>
+                            <h2 class="text-left" id="tipograficas">Fuentes tipograficas</h2>
+                            <p>Todas las fuentes utilizadas en esta libreria son las <b>Rubik</b> y <b>Lato</b> que son
+                                las fuentes principales del banco con todas sus variaciones desde light hasta extra bold
+                                manipulando el font weight
+                            </p>
+                            <div class="">
+                                <div class="row align-items-start">
+                                    <div class="col rubik-text mt-5">
+                                        <p class="text-primary">Rubik font</p>
+                                        <h1>H1. Banco Unión</h1>
+                                        <h2 style="margin: 0 0 10px 0; font-size: 2.2rem;">H2. Banco Unión</h2>
+                                        <h3 class="fs-3">H3. Banco Unión</h3>
+                                        <h4>H4. Banco Unión</h4>
+                                        <h5>H5. Banco Unión</h5>
+                                        <h6>H6. Banco Unión</h6>
+                                    </div>
+                                    <div class="col lato-text mt-5">
+                                        <p class="text-primary">Lato font</p>
+                                        <h1>H1. Banco Unión</h1>
+                                        <h2 style="margin: 0 0 10px 0; font-size: 2.2rem;">H2. Banco Unión</h2>
+                                        <h3 class="fs-3">H3. Banco Unión</h3>
+                                        <h4>H4. Banco Unión</h4>
+                                        <h5>H5. Banco Unión</h5>
+                                        <h6>H6. Banco Unión</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="">
+                                <div class="row align-items-start">
+                                    <div class="col rubik-text mt-5">
+                                        <p class="text-primary">Rubik font</p>
+                                        <h3 class="fw-light">300 Light</h3>
+                                        <h3 class="fw-normal">400 Regular</h3>
+                                        <h3 class="fw-medium">500 Medium</h3>
+                                        <h3 class="fw-semibold">600 Semibold</h3>
+                                        <h3 class="fw-bold">700 Bold</h3>
+                                        <h3 class="fw-bolder">800 Extrabold</h3>
+                                    </div>
+                                    <div class="col lato-text mt-5">
+                                        <p class="text-primary">Lato font</p>
+                                        <h3 class="fw-light">300 Light</h3>
+                                        <h3 class="fw-normal">400 Regular</h3>
+                                        <h3 class="fw-medium">500 Medium</h3>
+                                        <h3 class="fw-semibold">600 Semibold</h3>
+                                        <h3 class="fw-bold">700 Bold</h3>
+                                        <h3 class="fw-bolder">800 Extrabold</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="text-left  seccion" id="colores">
+
+                            <h2 class="text-left">Colores</h2>
+                            <p>El Banco posee una gama de colores muy caracteristicos los principales son el azul y el
+                                amarillo el cual cambiamos sus varibles de CSS con las palabras correspondientes
+                                Primary, Secondary y Tertiary.
+                                Para acceder a estos colores utilizaremos las variables como las realizamos en el
+                                siguiente ejemplo
+                            </p>
+                            <div class="row">
+                                <div class="col-5">
+                                    <img width="90%" src="./assets/Colores1.png" alt="">
+                                </div>
+                                <div class="col-7 align-self-center">
+                                    <h3 class="text-primary">Texto class="text-primary"</h3>
+                                    <h3 class="text-secondary">Texto class="text-secondary"</h3>
+                                    <h3 class="text-tertiary">Texto class="text-tertiary"</h3>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <p>Aparte de estos colores representativos de la marca, para temas de publicidad y mercadeo
+                                cada producto tiene un color diferente creandole una variable para cada uno con su
+                                respectivo hexadecimal de la misma como el anterior ejemplo</p>
+
+                            <img width="100%" src="assets/Colores2.png" alt="">
+                            <h3 class="text-ahorros">Texto Ahorros <span class="text-grey fw-light fs-5">
+                                    class="text-ahorros"</span> </h3>
+                            <h3 class="text-credioro">Texto Credioro <span class="text-grey fw-light fs-5 ">
+                                    class="text-credioro"</span> </h3>
+                            <h3 class="text-libranzas">Texto Libranzas <span class="text-grey fw-light fs-5">
+                                    class="text-libranzas"</span> </h3>
+                            <h3 class="text-credito">Texto Credito <span class="text-grey fw-light fs-5">
+                                    class="text-credito"</span> </h3>
+                            <h3 class="text-seguros">Texto Seguros <span class="text-grey fw-light fs-5">
+                                    class="text-seguros"</span> </h3>
+                            <h3 class="text-divisas">Texto Divisas <span class="text-grey fw-light fs-5">
+                                    class="text-divisas"</span> </h3>
+
+                            <br><br>
+                            <p>Nuestro principal producto es Western Union el cual maneja unos colores diferentes de
+                                igual manera manejandolo por variables de colores</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img width="100%" src="./assets/coloreswu.png" alt="">
+                                </div>
+                                <div class="col-8 align-self-center">
+                                    <h3 class="text-wu-amarillo">Texto Amarillo WU<span class="text-grey fw-light fs-5">
+                                            class="text-wu-amarillo"</span> </h3>
+                                    <h3 class="text-wu-negro">Texto Negro WU<span class="text-grey fw-light fs-5">
+                                            class="text-wu-negro"</span> </h3>
+
+                                </div>
+                            </div>
+
+                            <br><br>
+                            <p>Y para finalizar esta seccion de colores realizamos una gama de colores negativos usados
+                                por el banco de la misma manera</p>
+
+                            <img width="100%" src="assets/Coloresnegros.png" alt="">
+                        </div>
+
+
+
+                        <div class="text-left  seccion" id="iconos">
+
+                            <h2 class="text-left">Iconos</h2>
+                            <p>Para la iconografia de todo el sitio web decidimos utilizar la libreria de bootstrap con
+                                mas de 2.000 iconos a nuestra disposicion </p>
+                            <a href="https://icons.getbootstrap.com" target="_blank"> <button
+                                    class="btn btn-primary rounded-4 text-secondary fw-semibold fs-5"> Libreria de
+                                    iconos</button></a>
+                            <br>
+                            <p>Para la utilizacion de los mismos ingresamos a la anterior pagina buscamos el icono que
+                                deseemos y pegamos su respectivo codigo en nuestro HTML, por ejemplo este icono llamado
+                                bi-currency-exchange, lo encerramos entre las etiquetas i y le podemos configurar las
+                                medidas con display o con el font size que en bootstrap es la clase fs, y tambien el
+                                color con las variables de color</p>
+                            <pre><code class="language-html">
+                                i class="bi bi-currency-exchange display-2"
+                         i class="bi bi-currency-exchange display-2 text-primary"
+                         i class="bi bi-currency-exchange display-2 text-secondary"
+                                                     </code></pre>
+
+                            <div class="text-center">
+                                <i class="bi bi-currency-exchange display-2"></i>
+                                <i class="bi bi-currency-exchange display-2 text-primary"></i>
+                                <i class="bi bi-currency-exchange display-2 text-secondary"></i>
+                                <i class="bi bi-currency-exchange display-3 text-divisas"></i>
+                                <i class="bi bi-currency-exchange display-4 text-libranzas"></i>
+                                <i class="bi bi-currency-exchange display-5 text-ahorros"></i>
+                                <i class="bi bi-currency-exchange fs-3 text-wu-negro"></i>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="text-left  seccion" id="logos">
+
+                            <h2 class="text-left">Logos</h2>
+                            <p>Para mejor implementacion de los logos, se cambiaron a formato SVG con el fin de poder
+                                manipular su color y sus medidas sin afectar la relacion de aspecto o la resolucion del
+                                mismo, para esta libreria se implementaron 3 logos usados principalmente con cobranding
+                                y el logo principal individual </p>
+
+                            <div class="text-center mt-5 justify-space-between g-5">
+                                <img class="px-4" width="30%" src="Logos/logo-primary.svg" alt="">
+
+                                <img class="px-4" width="30%" src="Logos/logo-secondary.svg" alt="">
+
+                                <div class="bg-grey-100 m-5 p-3 rounded-4">
+                                    <img class="m-3" width="70%" src="Logos/logo-bg-black.svg" alt="">
+                                    <img class="--3" width="70%" src="Logos/logo-bg-white.svg" alt="">
+                                    <img class="m-3" width="70%" src="Logos/logo-bg-yellow.svg" alt="">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
                     </div>
-
-                    <div class="text-left  ">
-                        <h2 class="text-left">Introducción </h2>
-                        <p>¡Bienvenido a la documentación oficial de la librería de CSS para Banco Unión! Esta librería
-                            representa un recurso invaluable para los desarrolladores que trabajan en proyectos web para
-                            Banco Unión. Al integrar las potentes capacidades de Bootstrap Sass con componentes
-                            personalizados diseñados específicamente para las necesidades del banco, nuestra librería
-                            tiene
-                            como objetivo proporcionar una experiencia de desarrollo eficiente y coherente.
-                        </p>
-
-                        <h2>Objetivo </h2>
-                        <p>El objetivo principal de nuestra librería es brindar a los desarrolladores una herramienta
-                            completa y fácil de usar que simplifique el proceso de desarrollo de aplicaciones web para
-                            Banco Unión. Queremos asegurarnos de que los equipos de desarrollo puedan crear interfaces
-                            de usuario consistentes, atractivas y funcionales de manera rápida y sencilla, aprovechando
-                            al máximo las capacidades de Bootstrap y los componentes diseñados para satisfacer las
-                            necesidades específicas del Banco Unión.</p>
-                    </div>
-
-
-                    <div class="text-left  ">
-                        <h2 class="text-left">Introducción </h2>
-                        <p>¡Bienvenido a la documentación oficial de la librería de CSS para Banco Unión! Esta librería
-                            representa un recurso invaluable para los desarrolladores que trabajan en proyectos web para
-                            Banco Unión. Al integrar las potentes capacidades de Bootstrap Sass con componentes
-                            personalizados diseñados específicamente para las necesidades del banco, nuestra librería
-                            tiene
-                            como objetivo proporcionar una experiencia de desarrollo eficiente y coherente.
-                        </p>
-
-                        <h2>Objetivo </h2>
-                        <p>El objetivo principal de nuestra librería es brindar a los desarrolladores una herramienta
-                            completa y fácil de usar que simplifique el proceso de desarrollo de aplicaciones web para
-                            Banco Unión. Queremos asegurarnos de que los equipos de desarrollo puedan crear interfaces
-                            de usuario consistentes, atractivas y funcionales de manera rápida y sencilla, aprovechando
-                            al máximo las capacidades de Bootstrap y los componentes diseñados para satisfacer las
-                            necesidades específicas del Banco Unión.</p>
-                    </div>
-
-
-                    <div class="text-left  ">
-                        <h2 class="text-left">Introducción </h2>
-                        <p>¡Bienvenido a la documentación oficial de la librería de CSS para Banco Unión! Esta librería
-                            representa un recurso invaluable para los desarrolladores que trabajan en proyectos web para
-                            Banco Unión. Al integrar las potentes capacidades de Bootstrap Sass con componentes
-                            personalizados diseñados específicamente para las necesidades del banco, nuestra librería
-                            tiene
-                            como objetivo proporcionar una experiencia de desarrollo eficiente y coherente.
-                        </p>
-
-                        <h2>Objetivo </h2>
-                        <p>El objetivo principal de nuestra librería es brindar a los desarrolladores una herramienta
-                            completa y fácil de usar que simplifique el proceso de desarrollo de aplicaciones web para
-                            Banco Unión. Queremos asegurarnos de que los equipos de desarrollo puedan crear interfaces
-                            de usuario consistentes, atractivas y funcionales de manera rápida y sencilla, aprovechando
-                            al máximo las capacidades de Bootstrap y los componentes diseñados para satisfacer las
-                            necesidades específicas del Banco Unión.</p>
-                    </div>
-
-
-                    <div class="text-left  ">
-                        <h2 class="text-left">Introducción </h2>
-                        <p>¡Bienvenido a la documentación oficial de la librería de CSS para Banco Unión! Esta librería
-                            representa un recurso invaluable para los desarrolladores que trabajan en proyectos web para
-                            Banco Unión. Al integrar las potentes capacidades de Bootstrap Sass con componentes
-                            personalizados diseñados específicamente para las necesidades del banco, nuestra librería
-                            tiene
-                            como objetivo proporcionar una experiencia de desarrollo eficiente y coherente.
-                        </p>
-
-                        <h2>Objetivo </h2>
-                        <p>El objetivo principal de nuestra librería es brindar a los desarrolladores una herramienta
-                            completa y fácil de usar que simplifique el proceso de desarrollo de aplicaciones web para
-                            Banco Unión. Queremos asegurarnos de que los equipos de desarrollo puedan crear interfaces
-                            de usuario consistentes, atractivas y funcionales de manera rápida y sencilla, aprovechando
-                            al máximo las capacidades de Bootstrap y los componentes diseñados para satisfacer las
-                            necesidades específicas del Banco Unión.</p>
-                    </div>
-                </div>
 
             </section>
         </div>

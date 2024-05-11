@@ -37,6 +37,9 @@ h2 {
     margin-top: 40px;
 }
 
+h3{
+    font-size: 1.5rem;
+}
 p {
     text-align: justify;
     line-height: normal;
@@ -55,6 +58,8 @@ a {
     display: block;
     margin-top: 20px;
     font-weight: 600;
+    text-decoration: none;
+    color: #1c262b;
 }
 
 .menu a:hover {
@@ -79,6 +84,7 @@ ul a {
     font-weight: 400;
 }
 
+
 pre {
     background-color: #1c262b;
     color: white;
@@ -92,4 +98,8 @@ pre {
     border-radius: 5px;
     padding: 10px;
     font-family: monospace;
+}
+
+.seccion{
+    margin: 20% 0px 50px 0px;
 }
