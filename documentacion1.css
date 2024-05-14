@@ -7,9 +7,6 @@
     font-size: 1rem;
     color: #333F48 ;
     font-family: "Rubik", sans-serif !important;
-
-
-
 }
 
 .cabecera {
@@ -24,7 +21,7 @@
     width: 20%;
     height: 510px;
     /* Establece el alto del menú al 100% del viewport */
-    overflow-y: auto;
+   
     /* Añade scroll vertical si es necesario */
     background-color: #f8f9fa;
     /* Cambia el color de fondo según tus preferencias */
@@ -35,12 +32,13 @@
     margin-left: 20%;
     /* Ajusta el margen izquierdo para dejar espacio para el menú */
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 0px;
     /* Añade un margen superior para evitar la superposición con el menú */
 }
 
 .body h2 {
     margin-top: 40px;
+    font-weight: 700;
 }
 
 .body h3{
@@ -66,14 +64,16 @@
     font-weight: 600;
     text-decoration: none;
     color: #1c262b !important;
+    padding-left: 15px;
 }
 
 .body a:hover{
     color: white !important;
-
+    padding-left: 15px;
 }
 .body ul a:hover{
     color: white !important;
+    padding-left: 20px !important;
 
 }
 
@@ -99,6 +99,7 @@
     margin-top: 0px;
     font-weight: 400;
     color: #1c262b !important;
+    padding-left: 20px !important;
 }
 
 .body ol {
@@ -122,5 +123,22 @@
 }
 
 .seccion{
-    margin: 20% 0px 50px 0px;
+    margin: 20px 0px 50px 0px;
+}
+
+.body .btn {
+    padding: 1rem !important;
+    height: 100% !important;
+}
+
+.body .mainsecciones ul li {
+    list-style: disc;
+}
+
+#cards-internas {
+    display: none;
+}
+
+.bu-footer{
+    display: none;
 }
